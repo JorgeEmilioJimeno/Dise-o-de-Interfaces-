@@ -1,0 +1,73 @@
+body {
+    background-color: #B48EAD;
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, Times, serif;
+    font-size: 16px;
+
+}
+
+.container {
+    padding-top: 1%;
+    padding-bottom: 1%;
+    background-color: white;
+    width: 90%;
+    max-width: 970px;
+    margin: 0px auto; /*centramos el contenido horizontalmente*/
+
+}
+.text{
+    margin: 5%;
+
+}
+.Titulo1{    
+    color: #8D9440;
+
+}
+.linea{
+    margin-top: 0px;
+    border: none;
+    height: 1px;
+
+    background-color: #6BA9B5;
+}
+.Titulo2{
+    font-size: 1.7ch;
+    color: #257282;
+    font-weight: bold;
+
+}
+.Titulo3{
+    font-size: 1.7ch;
+
+}
+.Parrafo1{
+    white-space: pre-line;
+    line-height: 1.5;
+    margin-bottom: 20px;
+
+}
+.Gris{
+    color: #8D9440;
+    font-weight: bold;
+
+}
+.Nomada{
+    font-weight: bold;
+
+}
+.Verde{
+    color: #8D9440;
+
+}
+.Espaciado{
+    margin-left: 20px;
+}
+.footer{
+    text-align: center;
+    font-size: 12px;
+}
+.Fecha{
+    font-size: 12px;
+
+}
