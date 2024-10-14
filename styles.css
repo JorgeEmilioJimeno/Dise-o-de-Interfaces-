@@ -1,0 +1,215 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f0e68c; 
+}
+.cajaBotones{
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    width: 100%;
+}
+.botonesUl {
+    list-style-type: none;
+    padding: 0;
+}
+.botonesLi {
+    display: inline;
+    margin: 0 0px;
+}
+.button {
+    background-color: #d3d3d3; 
+    border: 1px solid #a9a9a9;
+    border-radius: 5px;
+    box-shadow: 3px 3px 5px #888888;
+    color: black;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 16px;
+    transition: all 0.3s ease;
+}
+.button:hover {
+    background-color: #c0c0c0;
+    box-shadow: 2px 2px 4px #666666;
+}
+.container {
+    background-color: white;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    width: 90%;
+    height: 100%;
+    margin: 0px auto; 
+}
+.titulo1_articulo{
+    background-color: #E1D1C1;
+    display: flex;
+    margin: 20px;
+    height: 100px;
+}
+.text_titulo1_articulo{
+ margin-top: 10px;   
+ margin-left: 10px;
+}
+.articulo_h1{
+    font-size: 27px;
+
+}
+.texto_articulo{
+    background-color: white;
+    margin: 20px;
+}
+.texto1_articulo{
+    margin-right: 50px;
+    margin-left: 50px;
+}
+.Espaciado{
+    margin-left: 20px;
+}
+.titulo2_articulo{
+    color: #663A09;
+
+}
+.lista_articulo{
+    margin-left: 75px;
+    border-left: 5px solid black; 
+    padding-left: 20px;
+}
+.lista_articulo ul{
+    list-style-type: none; 
+    padding: 0;
+    margin: 0;
+}
+.lista_articulo li{
+    margin: 5px 0;
+}
+.lineasArticulo{
+    margin-left: 75px;
+    margin-right: 75px;
+    border-left: 5px solid #CBCBCB;
+    border-right: 5px solid #CBCBCB;
+}
+.textLineasArticulo{
+    margin: 25px;
+}
+.img_articulo{
+    display: flex;
+    justify-content: center;
+
+}
+.texto2_articulo{
+    display: flex;
+    justify-content: center;
+}
+.footer_articulo{
+    color: #666666;
+    display: flex;
+    background-color: #f0e68c; 
+}
+.img_footer_articulo{
+    margin-top: 50px;
+    margin-left: 25px;    
+    margin-right: 25px;
+}
+.titulo1_tecnica{
+    margin-right: 20px;
+    display: flex;
+    justify-content: right;
+
+}
+.lineaArticulo{
+    border: none;
+    border-top: 5px dashed #663A09;
+    margin-top: 0;
+}
+.titulo2_tecnica{
+    text-decoration: underline dotted;
+    color: #663A09;
+    margin-left: 20px;
+}
+.texto1_tecnica{
+    margin-left: 50px;
+}
+.texto2_tecnica{
+    margin-left: 75px;
+}
+.img1_tecnica{
+    display: flex;
+    justify-content: center;
+}
+.textimg1_tecnica{
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+}
+.footer_tecnica{
+    color: #666666;
+    margin-top: 50px;
+}
+.footer_tecnica a{
+    color: #663A09;
+}
+.textfooter_tecnica{
+    display: flex;
+    justify-content: center;
+}
+.titulo1_recusos{
+    margin-left: 50px;
+
+}
+
+.lista3_recuros{
+    list-style-image: url('PEC materiales/img/usabilidad-icono.png');
+}
+.lista4_recursos{
+    list-style-type: square; 
+    border: 2px solid yellow;
+    margin: 25px;
+}
+.lista2_recusos{
+    border: 2px solid yellow;
+    margin: 25px;
+}
+.footer_recursos{
+    color: #666666;
+    display: flex;
+    justify-content: center;
+}
+.footer_recursos{
+    color: #663A09;
+}
+.footer_recursos a{
+    color: #663A09;
+}
+a{
+    text-decoration: none;
+}
+.marron{
+    color: #663A09;
+
+}
+samp{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.cuadradoArticulo{
+    margin-left: 250px;
+    margin-right: 250px;
+    border: 2px  dotted #663A09 ;
+}
+.lista_articulo2{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: #663A09;
+}
+.lista_articulo2 li{
+    color: black;
+    font-weight: normal;
+    margin-left: 25px;
+}
+.lista_articulo2 a{
+    font-weight: bold;
+    color: #663A09;
+}
+.lista1_tecnica{
+    list-style-image: url('PEC materiales/img/check-icono.png');
+
+}
